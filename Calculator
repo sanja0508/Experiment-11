@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+class Calculator
+{
+    public:
+    
+    int a,b;
+    int add()
+    {
+        return a+b;
+    }
+    int sub()
+    {
+        return a-b;
+    }
+    int mul()
+    {
+        return a*b;
+    }
+    float div()
+    {
+        return (b!=0) ? (float)a/b: 0;
+    }
+};
+int main()
+{
+    Calculator c;
+    cout<<"Enter two numbers=";
+    cin>>c.a>>c.b;
+    
+    cout<<c.add()<<endl;
+    cout<<c.sub()<<endl;
+    cout<<c.mul()<<endl;
+    cout<<c.div()<<endl;
+    
+    return 0;
+}
