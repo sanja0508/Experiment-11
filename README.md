@@ -4,8 +4,11 @@ Aim: To understand and implement the concept of Classes and Objects in C++ throu
 
 Software Required: Visual Studio / Code::Blocks / Dev C++ / Turbo C++, C++ Compiler (GCC or MSVC)
 
-Theory : In C++, a class is a user-defined data type that encapsulates related variables and functions. It serves as a blueprint for creating objects, which are instances of that class. Each object holds its own data and can perform operations using the class's methods. This approach is central to Object-Oriented Programming (OOP), which promotes modularity, reusability, and abstraction.
-This experiment demonstrates how to define classes, create objects, access attributes, and use methods in C++. It introduces basic object-oriented programming through simple examples like calculators, cars, rectangles, and students.
+Theory : When we write programs in C++, we often deal with data—numbers, strings, and all sorts of values. But as our programs grow, we need better ways to organize that data and the actions we perform on it. That’s where classes and objects come in.
+
+Think of a class like a recipe. It tells you what ingredients (data) you need and what steps (functions) to follow. But the recipe itself doesn’t make food—you need to use it to create a dish. That dish is your object. It’s a real, usable version of the class. In this experiment, we explore how to build and use classes in C++. We start with simple examples: a calculator that can add, subtract, multiply, and divide; a car with a name, color, and year; a rectangle that knows how to calculate its area; and a student with academic details. Each of these examples shows how we can bundle related information and behavior into one neat package. Once we define a class, we can create multiple objects from it—each with its own unique data. For instance, two student objects might have different names and results, but they’re both built from the same Student class. We access their data and call their functions using the dot (.) operator, like s1.name or r1.area().
+This approach makes our code cleaner and more logical. Instead of juggling loose variables and functions, we group them into meaningful units. That’s the heart of object-oriented programming: thinking in terms of objects that represent real-world things.
+By the end of this experiment, you’ll see how classes and objects help us write smarter, more organized code—and how they lay the foundation for building bigger, more powerful programs.
 
 Concepts Covered:
 Defining classes with attributes and methods
